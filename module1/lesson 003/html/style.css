@@ -1,0 +1,25 @@
+p {
+  background-color: blanchedalmond;
+  text-align: center;
+}
+
+#new-element {
+  color: red;
+}
+
+.important {
+  color: orange;
+}
+
+.very-important {
+  font-weight: 900;
+}
+
+.very-important > span {
+  background-color: chocolate;
+}
+
+a {
+  color: yellow;
+}
+
