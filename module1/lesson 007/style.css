@@ -1,0 +1,101 @@
+.container {
+    
+    display:flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    background-color: yellow;
+}
+
+.box2 {
+    background-color: red;;
+}
+
+.box3:hover {
+  height: 30vh;
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box1, .box2, .box3 {
+  background-color: orange;
+} 
+
+.box {
+  background-color: palegreen;
+}
+
+.container > div {
+  border: black solid 3px;
+}
+
+.box1 + div {
+  background-color: cornflowerblue;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.box5 {
+  background-color: red;
+  height: 200px;
+  width: 50px;
+  /* transform: rotate(0deg) */
+}
+
+.box5:hover {
+  height: 600px;
+  width: 200px;
+  transform: rotate(180deg);
+  border: 2px solid grey;
+  transition-property: height, width, transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+
+.box6 {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  animation-name: move-right;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+@keyframes move-right {
+  0% {
+    transform: translateX(100px)
+  }
+
+  50% {
+    transform: translateX(600px)
+
+  }
+
+  100% {
+    transform: translateX(400px)
+  }
+
+}
+/* .box {
+  background-color: maroon;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+  .box {
+    background-color: mediumaquamarine;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .box {
+    background-color: mintcream;
+  }
+} */
