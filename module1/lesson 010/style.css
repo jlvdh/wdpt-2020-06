@@ -1,0 +1,7 @@
+.clicked {
+  background-color: blueviolet;
+}
+
+.clickedCat {
+  border: red dotted 2px;
+}
