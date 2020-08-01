@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+}
+
+#jump-button {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+canvas {
+  border: 1px solid black;
+}

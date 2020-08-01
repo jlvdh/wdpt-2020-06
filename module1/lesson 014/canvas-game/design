@@ -1,0 +1,22 @@
+circles 
+
+- the player
+  - xPos
+  - yPos
+  - speed
+- enemies
+  - xPos
+  - yPos
+  - radius
+  - speed
+
+Score
+  - increase when collision with enemy
+
+Game class
+- random enemies
+- event listeners
+- collision makes blue balls disappear
+
+Canvas
+
