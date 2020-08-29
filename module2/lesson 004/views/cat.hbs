@@ -1,0 +1,21 @@
+
+    
+    <ul>
+        <li>Miaomiao</li>
+        <li>Lulu</li>
+        <li>Poeska</li>
+        <li>No cat</li>
+        
+    </ul>
+
+    <h2>My name is {{name}} my age is {{age}}</h2>
+    {{#if hungry}}
+    {{>feedbutton}}
+    {{/if}}
+
+    <h2>wardrobe</h2>
+    <ul>
+    {{#each clothing}}
+      <li>{{color}} {{name}}</li>
+    {{/each}}
+    </ul>
