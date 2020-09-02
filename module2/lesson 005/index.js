@@ -39,6 +39,8 @@ app.get('/form', (req, res, next) => {
 app.post('/formaction', (req, res, next) => {
 
   console.log(req.body)
+
+  
   res.send('form send')
 })
 
