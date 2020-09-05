@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const Weather = require('../models/Weather')
-
+const Location = require('../models/Location')
 const weatherDocs = [{
   name: 'nice weather',
   windSpeed: 0,
@@ -15,6 +15,14 @@ const weatherDocs = [{
   rating: 7.5
 }]
 
+const locations = [{
+  name: 'Amsterdam'
+},{
+  name: 'California'
+}, {
+  name: 'Paris'
+}]
+
 
 mongoose
   .connect('mongodb://localhost/weathershare', {useNewUrlParser: true})
@@ -24,6 +32,12 @@ mongoose
   })
   .then(weatherDocs => {
     console.log(weatherDocs)
+  })
+  .then(() => {
+    return Location.insertMany(locations)
+  })
+  .then(locations => {
+    console.log(locations)
     mongoose.disconnect()
   })
   .catch(err => {

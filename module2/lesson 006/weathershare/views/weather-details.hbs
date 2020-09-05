@@ -1,6 +1,38 @@
-<p>{{name}}</p>
+<p>{{weatherDoc.name}}</p>
 
 <ul>
-  <li>windspeed: {{windSpeed}}</li>
-  <li>rating: {{rating}}</li>
+  <li>windspeed: {{weatherDoc.windSpeed}}</li>
+  <li>rating: {{weatherDoc.rating}}</li>
 </ul>
+
+<h3>Locations</h3>
+<form action="/weather/location/{{weatherDoc._id}}" method="POST">
+  <select name="locationId">
+    {{#each locations}}
+    <option value="{{id}}">{{name}}</option>
+    {{/each}}
+  </select>
+  <input type="submit" value="set location">
+
+</form>
+
+<h3>where has this weather been seen</h3>
+{{#each weatherDoc.locations}}
+  <p>{{name}}</p>
+{{/each}}
+
+<a href="/weather/delete/{{weatherDoc._id}}">DELETE</a>
+
+<h3>messages</h3>
+<form action="/weather/message/{{weatherDoc._id}}" method="POST">
+  <label for="title">Title</label>
+  <input type="text" name="title" id="title">
+    <label for="body">Body</label>
+  <input type="text" name="body" id="body">
+  <input type="submit" value="send message">
+</form>
+
+{{#each weatherDoc.messages}}
+  <h3>{{title}}</h3>
+  <p>{{body}}</p>
+{{/each}}
