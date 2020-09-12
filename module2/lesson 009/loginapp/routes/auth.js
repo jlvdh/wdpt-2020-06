@@ -27,4 +27,35 @@ router.post('/signup', (req, res, next) => {
 
 })
 
+router.get('/login', (req, res, next) => {
+    res.render('login')
+})
+
+router.post('/login', (req, res, next) => {
+    const { username, password } = req.body
+
+    let currentUser
+
+    User.findOne({username})
+        .then(user => {
+            if(user) {
+
+                currentUser = user
+                return bcrypt.compare(password, user.password)
+            }
+        })
+        .then(hashMatched => {
+            if(!hashMatched) {
+                return res.send('password incorrect')
+            }
+            req.session.user = currentUser
+            res.send('password correct')
+        })
+        .catch(err => {
+            next(err)
+        })
+})
+
+
+
 module.exports = router
