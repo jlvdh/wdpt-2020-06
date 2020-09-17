@@ -1,0 +1,161 @@
+{
+  "cocktails": [
+    {
+      "name": "What if",
+      "ingredients": "Vodka & Lemonjuice",
+      "id": 2
+    },
+    {
+      "title": "Moscow Mule",
+      "ingredients": "Vodka",
+      "id": 3
+    },
+    {
+      "name": "Moscow Mule",
+      "ingredients": "Vodka",
+      "id": 4
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 5
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 6
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 7
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 8
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 9
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 10
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 11
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 12
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 13
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 14
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 15
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 16
+    },
+    {
+      "name": "Bloody Mary",
+      "ingredients": "Bloody Mary",
+      "id": 17
+    },
+    {
+      "name": "",
+      "ingredients": "",
+      "id": 18
+    },
+    {
+      "name": "",
+      "ingredients": "",
+      "id": 19
+    },
+    {
+      "name": "",
+      "ingredients": "",
+      "id": 20
+    },
+    {
+      "name": "",
+      "ingredients": "",
+      "id": 21
+    },
+    {
+      "name": "",
+      "ingredients": "",
+      "id": 22
+    },
+    {
+      "name": "dsfgsdf",
+      "ingredients": "dsfgsdf",
+      "id": 23
+    },
+    {
+      "name": "dsfgsdf",
+      "ingredients": "dsfgsdf",
+      "id": 24
+    },
+    {
+      "name": "vcbdf",
+      "ingredients": "vcbdf",
+      "id": 25
+    },
+    {
+      "name": "vcbdf",
+      "ingredients": "vcbdf",
+      "id": 26
+    },
+    {
+      "name": "vcbdf",
+      "ingredients": "vcbdf",
+      "id": 27
+    },
+    {
+      "name": "asdf",
+      "ingredients": "asdf",
+      "id": 28
+    },
+    {
+      "name": "asdf",
+      "ingredients": "asdf",
+      "id": 29
+    },
+    {
+      "name": "kkkkk",
+      "ingredients": "kkkkk",
+      "id": 30
+    },
+    {
+      "name": "asdfasdfa",
+      "ingredients": "asdfasdfa",
+      "id": 31
+    }
+  ],
+  "bars": [
+    {
+      "id": 1,
+      "name": "Tails and Spirits",
+      "location": "Amsterdam"
+    }
+  ]
+}
