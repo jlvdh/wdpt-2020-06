@@ -5,7 +5,8 @@ const FastFoodLover = (props) => {
 return (
   <div className="card">
     <li>name: <i>{props.name}</i> </li>
-    <li>age: {props.age}</li>
+    <li>ate: {props.burgers} burgers</li>
+    <img src="img/logo192.png" />
   </div>
   )
 }
